@@ -2,7 +2,7 @@ import json
 import requests
 
 
-KEYWORD = 'yaml.load'
+KEYWORD = 'Popen'
 OPS_GERRIT_API = 'https://review.openstack.org'
 GET_CHANGES_API = '/changes/?q=status:open&n=1000&o=CURRENT_REVISION&o=CURRENT_FILES'
 
